@@ -1,0 +1,10 @@
+CUDA_VISIBLE_DEVICES=0 python eval.py \
+    --dataset_name 'cifar100' \
+    --pretrained_model_path /root/pretrained-models/cifar100/dinoB16_best_trainul.pt \
+    --prompt_type 'patch' \ 
+    --eval_funcs 'v2' \
+
+ CUDA_VISIBLE_DEVICES=0 python eval.py     --dataset_name 'cifar100'     --pretrained_model_path /root/work/saved_models/dinoB16_best_trainul.pt     --prompt_type 'patch'     --eval_funcs 'v2'
+
+
+c
