@@ -1,7 +1,11 @@
 Config
+
+
 Set paths to datasets and desired log directories in config.py
 
 Train
+
+
 CUDA_VISIBLE_DEVICES=0 python train_with_print2.py \
     --dataset_name 'cub' \
     --batch_size 128 \
