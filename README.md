@@ -1,10 +1,10 @@
 Config
 
-
 Set paths to datasets and desired log directories in config.py
 
-Train
+Pre-trained Models is here: https://drive.google.com/drive/folders/18aD6UJx1PC_baUTSZMOUg1jnnzgI_R2e?usp=sharing
 
+Train
 
 CUDA_VISIBLE_DEVICES=0 python train_with_print2.py \
     --dataset_name 'cub' \
